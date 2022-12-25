@@ -60,7 +60,7 @@ Three step-by-step tutorials are included in the `Tutorial` folder to show how t
 
 ## Support
 
-If you are having issues, please contact [xzhou@amss.ac.cn](mailto:zhoux85@mail2.sysu.edu.cn). 
+If you have any questions, please feel free to contact us [xzhou@amss.ac.cn](mailto:xzhou@amss.ac.cn). 
 
 
 
