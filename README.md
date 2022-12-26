@@ -19,7 +19,7 @@ First clone the repository.
 
 ```
 git clone https://github.com/zhoux85/STAligner.git
-cd STAligner
+cd STAligner-main
 ```
 
 It's recommended to create a separate conda environment for running STAligner:
