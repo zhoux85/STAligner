@@ -50,7 +50,7 @@ python setup.py install
 
 ## Tutorials
 
-Three step-by-step tutorials are included in the `Tutorial` folder to show how to use STAligner.
+Three step-by-step tutorials are included in the `Tutorial` folder and https://staligner.readthedocs.io/en/latest/ to show how to use STAligner. 
 
 - Tutorial 1: Integrating adjacent DLPFC slices (10x Visium)
 - Tutorial 2: Integrating slices across sequencing platforms (Slide-seqV2 and Stereo-seq)
