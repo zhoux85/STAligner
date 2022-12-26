@@ -37,6 +37,7 @@ Install all the required packages.
 ```
 pip install -r requiements.txt
 ```
+The use of the mclust algorithm requires the rpy2 package and the mclust package. See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for detail.
 
 Install STAligner.
 
