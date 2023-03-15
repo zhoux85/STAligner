@@ -1,40 +1,11 @@
 import numpy as np
-import scanpy as sc
 import pandas as pd
 
-# from annoy import AnnoyIndex
-# import random
-
-# from scipy.sparse import issparse
-from scipy.spatial import cKDTree
-
-# from sklearn.base import BaseEstimator
-# import json
-import os
-import shutil
-import multiprocessing
-import platform
-
-from sklearn.metrics.pairwise import rbf_kernel, euclidean_distances
 from sklearn.neighbors import NearestNeighbors
-# from intervaltree import IntervalTree
-import operator
-
-# from scipy.sparse import issparse
 from annoy import AnnoyIndex
-# from multiprocessing import Process, cpu_count, Queue
-# from collections import namedtuple
-# from operator import attrgetter
-# from tqdm import tqdm
-# import time
 import itertools
 import networkx as nx
 import hnswlib
-
-# from sklearn.preprocessing import LabelEncoder
-# le = LabelEncoder()
-# from sklearn import metrics
-
 
 def create_dictionary_mnn(adata, use_rep, batch_name, k = 50, save_on_disk = True, approx = True, verbose = 1, iter_comb = None):
 
