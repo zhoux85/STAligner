@@ -17,7 +17,7 @@ import platform
 
 from sklearn.metrics.pairwise import rbf_kernel, euclidean_distances
 from sklearn.neighbors import NearestNeighbors
-from intervaltree import IntervalTree
+# from intervaltree import IntervalTree
 import operator
 
 # from scipy.sparse import issparse
