@@ -351,7 +351,7 @@ def train_STAligner_subgraph(adata, hidden_dims=[512, 30], n_epochs=1000, lr=0.0
                                                            k=knn_neigh,
                                                            iter_comb=None, verbose=0)
 
-                batch_list = batch_pair.obs['batch_name']
+                batchname_list = batch_pair.obs['batch_name']
                 cellname_by_batch_dict = dict()
                 for batch_id in range(len(section_ids)):
                     cellname_by_batch_dict[section_ids[batch_id]] = batch_pair.obs_names[
@@ -365,9 +365,9 @@ def train_STAligner_subgraph(adata, hidden_dims=[512, 30], n_epochs=1000, lr=0.0
                         anchor_list.append(anchor)
                         positive_spot = mnn_dict[batch_pair_name][anchor][0]
                         positive_list.append(positive_spot)
-                        section_size = len(cellname_by_batch_dict[batch_list[anchor]])
+                        section_size = len(cellname_by_batch_dict[batchname_list[anchor]])
                         negative_list.append(
-                            cellname_by_batch_dict[batch_list[anchor]][np.random.randint(section_size)])
+                            cellname_by_batch_dict[batchname_list[anchor]][np.random.randint(section_size)])
 
                 batch_as_dict = dict(zip(list(batch_pair.obs_names), range(0, batch_pair.shape[0])))
                 anchor_ind = list(map(lambda _: batch_as_dict[_], anchor_list))
