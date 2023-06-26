@@ -1,6 +1,7 @@
 # STAligner
 
-![image-20221221161146872](STAligner_Overview.png)
+![STAligner_Overview](https://github.com/zhoux85/STAligner/assets/31464727/1c99b17c-e0d8-4726-9d36-e1af16bc6f60)
+
 
 ## Overview
 
