@@ -33,11 +33,17 @@ conda create -n env_STAligner python=3.8
 conda activate env_STAligner
 ```
 
-Install all the required packages.
+Install all the required packages. 
 
+For Linux
 ```
 pip install -r requiement.txt
 ```
+For MacOS
+```
+pip install -r requirement_for_macOS.txt
+```
+
 The use of the mclust algorithm requires the rpy2 package (Python) and the mclust package (R). See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for detail.
 
 The torch-geometric library is also required, please see the installation steps in https://github.com/pyg-team/pytorch_geometric#installation
