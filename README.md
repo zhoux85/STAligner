@@ -61,10 +61,10 @@ python setup.py install
 
 Three step-by-step tutorials are included in the `Tutorial` folder and https://staligner.readthedocs.io/en/latest/ to show how to use STAligner. 
 
-- Tutorial 1: Integrating adjacent DLPFC slices (10x Visium)
-- Tutorial 2: Integrating slices across sequencing platforms (Slide-seqV2 and Stereo-seq)
-
-- Tutorial 3: Spatial domain guided 3D slices alignment (Slide-seq)
+- Tutorial 1: Integrating 4 adjacent DLPFC slices (10x Visium)
+- Tutorial 2: Integrating all 12 DLPFC slices from 3 adult samples (10x Visium)
+- Tutorial 3: Integrating slices across sequencing platforms (Slide-seqV2 and Stereo-seq)
+- Tutorial 4: Spatial domain guided 3D slices alignment (Slide-seq)
 
 
 
