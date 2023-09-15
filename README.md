@@ -64,7 +64,8 @@ Three step-by-step tutorials are included in the `Tutorial` folder and https://s
 - Tutorial 1: Integrating 4 adjacent DLPFC slices (10x Visium)
 - Tutorial 2: Integrating all 12 DLPFC slices from 3 adult samples (10x Visium)
 - Tutorial 3: Integrating slices across sequencing platforms (Slide-seqV2 and Stereo-seq)
-- Tutorial 4: Spatial domain guided 3D slices alignment (Slide-seq)
+- Tutorial 4: Integrating 4 mouse embryo slices sampled at the time stages of E9.5, E10.5, E11.5, and E12.5 (Stereo-seq)
+- Tutorial 5: Spatial domain guided 3D slices alignment (Slide-seq)
 
 
 
