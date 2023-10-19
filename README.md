@@ -76,5 +76,5 @@ If you have any questions, please feel free to contact us [xzhou@amss.ac.cn](mai
 
 
 ## Citation
-Xiang Zhou, Kangning Dong, and Shihua Zhang. "Integrating spatial transcriptomics data across different conditions, technologies, and developmental stages". bioRxiv, 2022.
+Zhou, X., Dong, K. & Zhang, S. Integrating spatial transcriptomics data across different conditions, technologies and developmental stages. Nat Comput Sci (2023). https://doi.org/10.1038/s43588-023-00528-w
 
