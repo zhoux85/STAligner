@@ -384,7 +384,7 @@ def train_STAligner_subgraph(adata, hidden_dims=[512, 30], n_epochs=1000, lr=0.0
                                            anchor_ind=torch.LongTensor(np.array(anchor_ind)),
                                            positive_ind=torch.LongTensor(np.array(positive_ind)),
                                            negative_ind=torch.LongTensor(np.array(negative_ind)),
-                                           x=torch.FloatTensor(batch_pair.X.todense())))
+                                           x=batch_pair.X))  #torch.FloatTensor(batch_pair.X.todense())
 
             # for temp in pair_data_list:
             #     temp.to(device)
@@ -393,6 +393,8 @@ def train_STAligner_subgraph(adata, hidden_dims=[512, 30], n_epochs=1000, lr=0.0
         for batch in pair_loader:
             model.train()
             optimizer.zero_grad()
+			
+			batch.x = torch.FloatTensor(batch.x[0].todense())
             batch = batch.to(device)
             z, out = model(batch.x, batch.edge_index)
             mse_loss = F.mse_loss(batch.x, out)
