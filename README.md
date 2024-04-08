@@ -37,7 +37,7 @@ Install all the required packages.
 
 For Linux
 ```
-pip install -r requiement.txt
+pip install -r requirement.txt
 ```
 For MacOS
 ```
